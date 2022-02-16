@@ -8,4 +8,4 @@ Check the project live at http://smarthealthcare.6te.net/
 For any development process this project has to be used together with a pair of hardware.
 Due to security, the firmware related to the device has been hidden
 
-<img src="data flow model.jpg" width="300">
+<img src="data flow model.jpg" width="500">
