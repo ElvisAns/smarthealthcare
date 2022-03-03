@@ -11,7 +11,7 @@ if(isset($_SESSION['loggedin'])){
 
 <html lang="en">
 <head>
-	<title>Smart HealthCare monitor</title>
+	<title>Smart healthCare monitor</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" type="image/png" href="images/favicon.png">
