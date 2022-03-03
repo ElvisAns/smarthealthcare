@@ -1,0 +1,3 @@
+apps:
+  name: smartheatlhcaremonitor
+  random-route: true
