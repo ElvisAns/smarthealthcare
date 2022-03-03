@@ -1,3 +1,4 @@
 apps:
   name: smartheatlhcaremonitor
   random-route: true
+  memory: 64M
