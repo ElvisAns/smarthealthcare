@@ -354,3 +354,6 @@ footer p a:hover, footer p a:focus:hover {
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
 }
+.login {
+    min-height: 320px !important;
+}

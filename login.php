@@ -85,7 +85,7 @@ if(isset($_SESSION['loggedin'])){
                     <p class="k">Welcome!</p>
                     <p>The patient monitoring tool is an Internet of things based healthcare system. 
                     Our System Interconnect Electronic equipement and a web application to monitor your heartbeat & the oxygiene
-                    concentration in blood (Measured Though the Heartbeat sensor) plus your temperature</p>
+                    concentration in blood (Measured through the Heartbeat sensor) plus your temperature</p>
                     <p style="color:#182145">For demo you may use : demo_doctor@e-health.app, demo_admin@e-health.app, demo_patient1@e-health.app. Password : 12345678</p>
                    <div class="CTA">
                       <a href="#" class="switch">Take me to login</a>
