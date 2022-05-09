@@ -41,7 +41,7 @@ if(isset($_SESSION['loggedin'])){
  
           <!-- Brand Box -->
           <div class="col-sm-6 brand">
-             <a href="#" class="logo"><img src="ehealth3.png"> <span></span></a>
+             <a href="#" class="logo">E <span>.</span></a>
  
              <div class="heading">
                 <h3>E-Health Monitor</h3>
@@ -82,10 +82,11 @@ if(isset($_SESSION['loggedin'])){
              <!-- Signup Form -->
              <div class="signup form-peice">
                 <form class="signup-form" action="#" method="post">
+                    <p class="k">Welcome!</p>
                     <p>The patient monitoring tool is an Internet of things based healthcare system. 
                     Our System Interconnect Electronic equipement and a web application to monitor your heartbeat & the oxygiene
                     concentration in blood (Measured Though the Heartbeat sensor) plus your temperature</p>
-                    <p style="color:#182145">For demo you may use : <ul ><li style="display:inline-block; list-style:disk;">demo_doctor@e-health.app</li>,<li style="display:inline-block; list-style:disk;">demo_admin@e-health.app</li>,<li style="display:inline-block; list-style:disk;">demo_patient1@e-health.app</li> </ul>Password : 12345678</p>
+                    <p style="color:#182145">For demo you may use : demo_doctor@e-health.app, demo_admin@e-health.app, demo_patient1@e-health.app. Password : 12345678</p>
                    <div class="CTA">
                       <a href="#" class="switch">Take me to login</a>
                    </div>
