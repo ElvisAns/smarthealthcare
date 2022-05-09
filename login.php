@@ -82,9 +82,10 @@ if(isset($_SESSION['loggedin'])){
              <!-- Signup Form -->
              <div class="signup form-peice">
                 <form class="signup-form" action="#" method="post">
-                For you may use : demo_doctor@e-health.app, demo_admin@e-health.app, demo_patient1@e-health.app and 12345678 as password
-                the patient monitoring tool is a Internet of things based health system.Our System Interconnect Electronic equipement and Informatic system to monitor your heartbeat & the oxygiene
-concentration in blood (Measured Though the Heartbeat sensor) also your body and room temperature (though the temperature sensor assets)
+                    <p>The patient monitoring tool is an Internet of things based healthcare system. 
+                    Our System Interconnect Electronic equipement and a web application to monitor your heartbeat & the oxygiene
+                    concentration in blood (Measured Though the Heartbeat sensor) plus your temperature</p>
+                    <p style="color:#182145">For demo you may use : <ul ><li style="display:inline-block; list-style:disk;">demo_doctor@e-health.app</li>,<li style="display:inline-block; list-style:disk;">demo_admin@e-health.app</li>,<li style="display:inline-block; list-style:disk;">demo_patient1@e-health.app</li> </ul>Password : 12345678</p>
                    <div class="CTA">
                       <a href="#" class="switch">Take me to login</a>
                    </div>
