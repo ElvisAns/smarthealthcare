@@ -54,7 +54,7 @@ section#formHolder {
   z-index: -1;
 }
 .brand a.logo {
-  color: #f95959;
+  color: #ff4749;
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
@@ -111,7 +111,7 @@ section#formHolder {
   font-size: 12px;
   text-transform: uppercase;
   padding: 8px 30px;
-  background: #f95959;
+  background: #ff4749;
   text-decoration: none;
   color: #fff;
   border-radius: 30px;
@@ -162,10 +162,10 @@ section#formHolder {
   position: relative;
 }
 .form form .form-group.hasError input {
-  border-color: #f95959 !important;
+  border-color: #ff4749 !important;
 }
 .form form .form-group.hasError label {
-  color: #f95959 !important;
+  color: #ff4749 !important;
 }
 .form form label {
   font-size: 12px;
@@ -199,10 +199,10 @@ section#formHolder {
   z-index: 1;
 }
 .form form input:not([type=submit]).hasError {
-  border-color: #f95959;
+  border-color: #ff4749;
 }
 .form form span.error {
-  color: #f95959;
+  color: #ff4749;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   position: absolute;
@@ -211,7 +211,7 @@ section#formHolder {
   display: none;
 }
 .form form input[type=password] {
-  color: #f95959;
+  color: #ff4749;
 }
 .form form .CTA {
   margin-top: 30px;
@@ -220,7 +220,7 @@ section#formHolder {
   font-size: 12px;
   text-transform: uppercase;
   padding: 5px 30px;
-  background: #f95959;
+  background: #ff4749;
   color: #fff;
   border-radius: 30px;
   margin-right: 20px;
@@ -236,7 +236,7 @@ section#formHolder {
   transition: all 0.3s;
 }
 .form form .CTA a.switch:hover {
-  color: #f95959;
+  color: #ff4749;
 }
 */
 
@@ -252,7 +252,7 @@ footer p a, footer p a:focus {
   text-decoration: none !important;
 }
 footer p a:hover, footer p a:focus:hover {
-  color: #f95959;
+  color: #ff4749;
 }
 
 @media (max-width: 768px) {
@@ -319,7 +319,7 @@ footer p a:hover, footer p a:focus:hover {
     height:80px;
 }
 
-.switch{
+#formHolder > div > div.col-sm-6.form > div.signup.form-peice > form > div > a{
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     box-sizing: border-box;
@@ -332,10 +332,19 @@ footer p a:hover, footer p a:focus:hover {
     font-size: 12px;
     text-transform: uppercase;
     padding: 5px 30px;
-    background: #f95959;
+    background: #ff4749;
     color: #fff;
     border-radius: 30px;
     margin-right: 20px;
     border: none;
     font-family: "Montserrat", sans-serif;
+}
+
+.switch:hover{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.automatica{
+    height: 90px;
 }

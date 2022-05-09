@@ -44,7 +44,7 @@ if(isset($_SESSION['loggedin'])){
              <a href="#" class="logo"><img src="ehealth3.png"> <span></span></a>
  
              <div class="heading">
-                <h3>E-Health</h3>
+                <h3>E-Health Monitor</h3>
                 <p>say byebye to sudden death</p>
              </div>
  
@@ -96,7 +96,7 @@ if(isset($_SESSION['loggedin'])){
  
     <footer>
        <p>
-          Form made by: <a href="http://mohmdhasan.tk" target="_blank">Mohmdhasan.tk</a>
+          Made by <a href="https://drc-automatica.netlify.app/" target="_blank"><img src="logo automatica.png" class="automatica"></a>
        </p>
     </footer>
  
