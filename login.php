@@ -60,15 +60,15 @@ if(isset($_SESSION['loggedin'])){
  
              <!-- Login Form -->
              <div class="login form-peice switched">
-                <form class="login-form" action="#" method="post">
+                <form class="login-form" action="authentificate.php" method="post" >
                    <div class="form-group">
-                      <label for="loginemail">Email Adderss</label>
-                      <input type="email" name="loginemail" id="loginemail" required>
+                      <label for="loginemail">Email Addrerss</label>
+                      <input  id="loginemail"  autofocus="" name="email" required type="email">
                    </div>
  
                    <div class="form-group">
                       <label for="loginPassword">Password</label>
-                      <input type="password" name="loginPassword" id="loginPassword" required>
+                      <input type="password" name="password" id="loginPassword"  required>
                    </div>
  
                    <div class="CTA">
@@ -85,7 +85,7 @@ if(isset($_SESSION['loggedin'])){
                     <p class="k">Welcome!</p>
                     <p>The patient monitoring tool is an Internet of things based healthcare system. 
                     Our System Interconnect Electronic equipement and a web application to monitor your heartbeat & the oxygiene
-                    concentration in blood (Measured through the Heartbeat sensor) plus your temperature</p>
+                    concentration in blood plus your temperature. <a target="_blank" href="https://drive.google.com/file/d/1aq_xBK0l-rvv-UCPlpve9knYOcTJeFtM/view?usp=sharing">More informations</a></p>
                     <p style="color:#182145">For demo you may use : demo_doctor@e-health.app, demo_admin@e-health.app, demo_patient1@e-health.app. Password : 12345678</p>
                    <div class="CTA">
                       <a href="#" class="switch">Take me to login</a>
