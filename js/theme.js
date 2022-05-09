@@ -1,1 +1,1 @@
-$(document).ready(function(){ $ ('.header').height($(windiow).height());})
+$(document).ready(function(){ $ ('.header').height($(window).height());})
