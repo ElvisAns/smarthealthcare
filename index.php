@@ -43,7 +43,7 @@ if(isset($_SESSION['loggedin'])){
 				<span class="fa fa-bars"></span>
 				</button>
 
-				<a class="navbar-brand" href="index.php"><img style="height:100%;" src="./ehealth3.png">E-health</a>
+				<a class="navbar-brand" href="index.php"><img style="height:180%;" src="./ehealth3.png">E-health</a>
 			</div>		
 			<div class="collapse navbar-collapse" id="navbarSuportedContent">
 				<ul class="nav navbar-nav navbar-right">

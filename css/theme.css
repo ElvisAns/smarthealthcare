@@ -1,6 +1,6 @@
 
 .navbar{
-background: #eae9e8;
+background: #ffffff;
 }
 
 .nav-link , .navbar-brand, a.footer-copyright{
@@ -12,7 +12,7 @@ background: #eae9e8;
 	margin-right: 1em ! important;
 }
 
-.nav-link : hover{
+.nav-link :hover{
 	background: #f4f4f4;
 	color: #F97300;
 }
