@@ -79,7 +79,7 @@
                             ?>
                             <div class="row">
                                  <div class="col-md-4">
-                                    <div class="card card-user">
+                                    <div class="card card-user" style="display:flex; justify-content:center; text-align:center;">
                                           
                                         <div class="content">
                                             <div class="patientName">
@@ -95,16 +95,16 @@
                                 
                                             <ul class="nav">
                                                 <li class="active patient_state">
-                                                    <img src="assets/img/heartbeat.svg" height="25px" width="25px"><span <?php echo "id=\"patient_bpm".$patient_datas[$i]['devId']."\""; ?> > </span>BPM
+                                                <i class="fa fa-heartbeat" aria-hidden="true"></i> <span <?php echo "id=\"patient_bpm".$patient_datas[$i]['devId']."\""; ?> > </span>BPM
                                                 </li>
                                                 <li class="patient_state">
-                                                    <img src="assets/img/child.svg" height="25px" width="25px">Body: <span <?php echo "id=\"patient_tmp".$patient_datas[$i]['devId']."\""; ?> > </span>&deg;C
+                                                <i class="fa fa-thermometer-full" aria-hidden="true"></i> Body: <span <?php echo "id=\"patient_tmp".$patient_datas[$i]['devId']."\""; ?> > </span>&deg;C
                                                 </li>
                                                 <li class="patient_state">
-                                                    <img src="assets/img/bed.svg" height="25px" width="25px">Room: <span  <?php echo "id=\"room_tmp".$patient_datas[$i]['devId']."\""; ?> > </span>&deg;C
+                                                <i class="fa fa-thermometer-empty" aria-hidden="true"></i> Room: <span  <?php echo "id=\"room_tmp".$patient_datas[$i]['devId']."\""; ?> > </span>&deg;C
                                                 </li>
                                                 <li class="patient_state">
-                                                    <img src="assets/img/chart-line.svg" height="25px" width="25px">OxyLevel: <span <?php echo "id=\"spo2_level".$patient_datas[$i]['devId']."\""; ?> > </span>%
+                                                <i class="fa fa-tint" aria-hidden="true"></i> SPO2 : <span <?php echo "id=\"spo2_level".$patient_datas[$i]['devId']."\""; ?> > </span>%
                                                 </li>
                                             </ul>
                                         </div>

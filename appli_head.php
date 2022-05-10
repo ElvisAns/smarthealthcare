@@ -29,18 +29,15 @@
 
 	<title>E-health</title>
 
-    <!-- Bootstrap core CSS     -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Animation library for notifications   -->
     <link href="assets/css/animate.min.css" rel="stylesheet"/>
 
-    <!--  Light Bootstrap Table core CSS    -->
     <link href="assets/css/light-bootstrap-dashboard.css?v=1.4.0" rel="stylesheet"/>
 
 
     <script type="text/javascript" src="assets/js/plotly.min.js"></script>
-    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    
     <link href="assets/css/demo.css" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css" />
