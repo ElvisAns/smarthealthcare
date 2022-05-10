@@ -1,11 +1,57 @@
-# Smart HealthCare
-________________
 
-The patient monitoring tool is a Internet of things based health system.E-health is an emerging field in the intersection of medical informatics, public health and business, referring to health services and information delivered or enhanced through the Internet and related technologies. In a broader sense, the term characterizes not only a technical development, but also a state-of-mind, a way of thinking, an attitude, and a commitment for networked, global thinking, to improve health care locally, regionally, and worldwide by using information and communication technology.
+# E-Health Monitor
 
-Check the project live at http://smarthealthcare.6te.net/
+The patient monitoring tool is an Internet of things based health system. E-health is an
+emerging field in the intersection of medical electronics and IT, public health
+and business, referring to health services and information delivered or enhanced through the Internet and related technologies.
 
-For any development process this project has to be used together with a pair of hardware.
-Due to security, the firmware related to the device has been hidden
+You can read more [here](https://drive.google.com/file/d/1Dk49aXsfDv07lNoJFKYdP_WonEkIg3-p/view?usp=sharing)
 
+
+## Deployment
+
+You can deploy this app on your local environment but you will not
+exploit all of the features.
+To fully test the ecosystem you need both the app and the device hardware
+
+```bash
+  -> git clone https://github.com/ElvisAns/smarthealthcare.git
+
+```
+
+To import the database make sure you created the database first then import sql (located within the repo) file
+using your credential 
+
+MySQL cli
+```bash
+  -> mysqlimport -h host -P 3306 -u user -p dbname pathto\patient_monitor final.sql
+
+```
+
+
+
+## Author
+
+- [@elvisansima](https://elvisansima.netlify.app/)
+
+
+## 🚀 About Me
+I'm a full stack developer with a passion for both frontend and backend development!
+
+
+## Screenshots
 <img src="data flow model.jpg" width="500">
+
+
+![image](https://user-images.githubusercontent.com/35831811/167665804-772aa75b-bf94-4351-a5bc-ad2f8dcc6269.png)
+
+![image](https://user-images.githubusercontent.com/35831811/167666064-113acb7d-5e3a-41a5-9979-769e811f3bad.png)
+
+
+
+## Demo
+
+The demo app is served proudly on 
+https://clever-cloud.com
+
+You can access it on [live app link](https://ehealthmonitor.cleverapps.io/)
