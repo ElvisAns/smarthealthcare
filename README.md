@@ -12,6 +12,7 @@ You can read more [here](https://drive.google.com/file/d/1Dk49aXsfDv07lNoJFKYdP_
 
 You can deploy this app on your local environment but you will not
 exploit all of the features.
+The application is made on top of PHP, check this blog [here](https://docs.php.earth/misc/deployment/) deployment information 
 To fully test the ecosystem you need both the app and the device hardware
 
 ```bash
