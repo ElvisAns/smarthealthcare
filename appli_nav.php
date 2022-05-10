@@ -5,7 +5,7 @@
                         <span class="sr-only">Toggle navigation</span>
                         <span class="fa fa-bars"></span>
                     </button>
-                    <a class="navbar-brand" href="index">Dashboard</a>
+                    <a class="navbar-brand" href="index">Dashboard <i class="pe-7s-link"></i></a>
                 </div>
                 <div class="collapse navbar-collapse">
                     
