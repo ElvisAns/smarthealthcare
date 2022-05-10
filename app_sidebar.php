@@ -1,4 +1,4 @@
-<div class="sidebar" data-color="orange">
+<div class="sidebar">
 
     <!--
 
@@ -7,11 +7,11 @@
 
     -->
 
-    	<div class="sidebar-wrapper">
+    	<div class="sidebar-wrapper" style="background-color:#182145 !important;" >
             <div class="logo">
                 <a href="#" class="simple-text">
-                    <i class="pe-7s-signal"></i>
-                   Patient Monitor
+                    <img src="ehealth.png" style="height:40px;">
+                   E-health
                 </a>
             </div>
 
