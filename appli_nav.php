@@ -5,7 +5,7 @@
                         <span class="sr-only">Toggle navigation</span>
                         <span class="fa fa-bars"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Dashboard</a>
+                    <a class="navbar-brand" href="index">Dashboard</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     
@@ -15,7 +15,7 @@
                               <img class="img-thumbnail profile-img-card img-circle" style="height:50;" width="50" src="<?php echo $_SESSION['imgSrc'];?>" alt="..."/><span class="text-dark"> <?php echo $_SESSION['name'] ;?></span>
                         </li>
                         <li class="dropdown" style="margin: 15px;">
-										<button class="btn dropdown-toggle btn-info" data-toggle="dropdown" style="color: black; border-color: black;"><i class="pe-7s-tools"></i>Quick Tool
+										<button class="btn dropdown-toggle btn-info" data-toggle="dropdown">Quick Tool
 										<b class="caret"></b>
                                         </button>
                               <ul class="dropdown-menu">
@@ -25,7 +25,7 @@
                                     case 'admin':
                                         echo '
 
-                                        <li><a href="add_medical.php"><i class="pe-7s-add-user"></i>Add Medical personna</a></li>
+                                        <li><a href="add_medical"><i class="pe-7s-add-user"></i>Add Medical personna</a></li>
                                         
                                         <li><a href="#"><i class="pe-7s-graph3"></i>Statics</a></li>
                                         <li><a href="#"><i class="pe-7s-call"></i>Emergency</a></li>
@@ -36,7 +36,7 @@
 
                                         case 'medicale':
                                         echo '
-                                         <li><a href="add_patient.php"><i class="pe-7s-add-user"></i>Add patient</a></li>
+                                         <li><a href="add_patient"><i class="pe-7s-add-user"></i>Add patient</a></li>
                                         <li><a href="#"><i class="pe-7s-refresh-2"></i>Update graph</a></li>
                                         <li><a href="#"><i class="pe-7s-graph3"></i>Statics</a></li>
                                         <li><a href="#"><i class="pe-7s-call"></i>Emergency</a></li>
@@ -69,7 +69,7 @@
                             
                                 <form action="#" method="post">
                                         <input type="hidden" name="logout" value="65633hjbfe8374t3853847374bjsbyfg">
-                                        <button type="submit" class="btn btn-warning" style="border-color: black; background-color: white;"><i class="pe-7s-power"></i>Logout</button>
+                                        <button type="submit" class="btn btn-info">Logout</button>
                                 </form>
                             
                             
