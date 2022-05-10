@@ -10,14 +10,24 @@
 }
     ?>
 	<meta charset="utf-8" />
-	<link rel="icon" type="image/png" href="images/favicon.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-
-	<title>Smart HealthCare monitor</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/png" href="images/favicon.png">
+	<link rel="icon" type="image/png" href="ehealth.png">
+
+    
+	<meta name="description" content="E-health is a unifed healhcare platform used to monitor patients health condition">
+	<meta property="og:title" content="Automatica E-Health Plateform">
+	<meta property="og:type" content="webapp">
+	<meta property="fb:app_id" content="246270049874183">
+	<meta property="og:description" content="E-health is a unifed healhcare platform used to monitor patients health condition">
+
+	<meta property="og:image" content="ehealthfull.png">
+	<meta property="og:image:width" content="150">
+	<meta property="og:image:height" content="150">
+
+	<title>E-health</title>
 
     <!-- Bootstrap core CSS     -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
