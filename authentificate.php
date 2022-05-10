@@ -22,7 +22,7 @@
     	if ($row1=mysqli_fetch_row($result1)){
 
     		
-      		$sql2 = "SELECT password, Names, type, Photo FROM `accounts` WHERE password = '757dgsfg7366633hsd' AND email= '".$_POST['email']."' ";
+      		$sql2 = "SELECT password, Names, type, Photo FROM `accounts` WHERE  password =  UPPER( CONCAT('*', SHA1(UNHEX(SHA1('{$_POST['password']}'))))) AND email= '".$_POST['email']."' ";
 			
      		if ($result2=mysqli_query($conn,$sql2))
     			{
