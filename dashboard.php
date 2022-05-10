@@ -21,7 +21,7 @@ if(!isset($_SESSION['loggedin'])){
         <?php include 'appli_nav.php';?>
 
         <div class="content">
-        
+
             <?php include 'main_monitor_panel.php';?>
         </div>
 
