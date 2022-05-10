@@ -84,10 +84,10 @@ if(isset($_SESSION['loggedin'])){
                            <strong>Can't login!</strong> <?=$_GET['response']?>
                         </div>
                      <?php endif;?>
-                    <p>The patient monitoring tool is an Internet of things based healthcare system. 
+                    <p style="font-size:1rem;">The patient monitoring tool is an Internet of things based healthcare system. 
                     Our System Interconnect Electronic equipement and a web application to monitor your heartbeat & the oxygiene
                     concentration in blood plus your temperature. <a target="_blank" href="https://drive.google.com/file/d/1Dk49aXsfDv07lNoJFKYdP_WonEkIg3-p/view?usp=sharing">More informations</a></p>
-                    <p style="color:#182145">For demo you may use : demo_doctor@e-health.app, demo_admin@e-health.app, demo_patient1@e-health.app. Password : 12345678</p>
+                    <p style="color:#182145;font-size:1rem;">For demo you may use : demo_doctor@e-health.app, demo_admin@e-health.app, demo_patient1@e-health.app. Password : 12345678</p>
                    <div class="CTA">
                       <a href="#" class="switch">Take me to login</a>
                    </div>
