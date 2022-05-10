@@ -108,6 +108,7 @@ if(isset($_SESSION['loggedin'])){
  </div>
 <script src="js/jquery.min.js"></script>
 <script src="./js/log.js"></script> 
+<script src="//code.tidio.co/28wsybab3bcwodd7ys3mvnphgxz0rsqk.js" async></script>
 
 </body>
 </html>
