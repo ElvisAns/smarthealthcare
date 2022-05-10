@@ -45,7 +45,7 @@ I'm a full stack developer with a passion for both frontend and backend developm
 
 ![image](https://user-images.githubusercontent.com/35831811/167665804-772aa75b-bf94-4351-a5bc-ad2f8dcc6269.png)
 
-![image](https://user-images.githubusercontent.com/35831811/167666064-113acb7d-5e3a-41a5-9979-769e811f3bad.png)
+![image](https://user-images.githubusercontent.com/35831811/167666230-d3c97d55-60d7-47ed-805e-acbf60d9f6d5.png)
 
 
 
