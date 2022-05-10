@@ -25,10 +25,10 @@ if(isset($_SESSION['loggedin'])){
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+   <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 	<link rel="icon" type="image/png" href="ehealth.png">
 	<link rel="stylesheet" type="text/css" href="css/log.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css" />
+   <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css" />
 
 </head>
 
