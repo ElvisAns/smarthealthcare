@@ -41,21 +41,9 @@
     <link href="assets/css/demo.css" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css" />
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5e607109c32b5c191739a5ad/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
 
-    <!--     Fonts and icons     -->
+    <script src="//code.tidio.co/28wsybab3bcwodd7ys3mvnphgxz0rsqk.js" async></script>
+
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
     <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
