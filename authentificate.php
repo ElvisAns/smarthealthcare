@@ -47,7 +47,10 @@
             header('location: index?response=incorrect password');
             }
 
-   				}
+   			}
+			   else{
+				header('location: index?response=incorrect crediential provided');
+			   }
 		}
 	
 
