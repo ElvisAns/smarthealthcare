@@ -132,7 +132,7 @@ h1 .subtitle {
 }
 
 .text-warning, .text-warning:hover {
-    color: #FF9500 !important;
+   color: var( --primary-color) !important;
 }
 
 .text-danger, .text-danger:hover {
@@ -741,7 +741,7 @@ fieldset[disabled] .btn-info.active {
 
 .btn-warning {
     border-color: #FF9500;
-    color: #FF9500;
+   color: var( --primary-color);
 }
 
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active,

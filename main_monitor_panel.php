@@ -94,8 +94,8 @@
                                             </div>
                                 
                                             <ul class="nav">
-                                                <li class="active patient_state">
-                                                <i class="fa fa-heartbeat" aria-hidden="true"></i> <span <?php echo "id=\"patient_bpm".$patient_datas[$i]['devId']."\""; ?> > </span>BPM
+                                                <li class="active patient_state" style="width:200px;">
+                                                <i class="fa fa-heartbeat"  aria-hidden="true"></i> <span <?php echo "id=\"patient_bpm".$patient_datas[$i]['devId']."\""; ?> > </span>BPM
                                                 </li>
                                                 <li class="patient_state">
                                                 <i class="fa fa-thermometer-full" aria-hidden="true"></i> Body: <span <?php echo "id=\"patient_tmp".$patient_datas[$i]['devId']."\""; ?> > </span>&deg;C
