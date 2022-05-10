@@ -17,26 +17,26 @@ $t = date("H:i:s");
                                         <div class="col-md-5">
                                             <div class="form-group">
                                                 <label>Hospital name</label>
-                                                <input type="text" class="form-control" placeholder="Hospital Name" name="hospital_name" >
+                                                <input type="text" required minlength="5" class="form-control" placeholder="Hospital Name" name="hospital_name" >
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="form-group">
                                                 <label>Names</label>
-                                                <input type="text" class="form-control" placeholder="Names (both)" name="names">
+                                                <input type="text" required minlength="5" class="form-control" placeholder="Names (both)" name="names">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="row">
                                                 <div class="form-group col-md-12">
                                                     <label for="exampleInputEmail1">Email address</label>
-                                                    <input type="email" class="form-control" placeholder="Email" name="email">
+                                                    <input type="email" required  class="form-control" placeholder="Email" name="email">
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="form-group col-md-12">
                                                     <label for="exampleInputEmail1">Password</label>
-                                                    <input class="form-control" placeholder="account pwd" name="pwd">
+                                                    <input class="form-control" required minlength="8" placeholder="account pwd" name="pwd">
                                                 </div>
                                             </div>
                                         </div>
@@ -50,7 +50,7 @@ $t = date("H:i:s");
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>Address</label>
-                                                <input type="text" class="form-control" placeholder="Hospital Address" name="hopaddress" >
+                                                <input type="text" class="form-control" required minlength="5" placeholder="Hospital Address" name="hopaddress" >
                                             </div>
                                         </div>
                                     </div>
@@ -59,14 +59,14 @@ $t = date("H:i:s");
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>City</label>
-                                                <input type="text" class="form-control" placeholder="City">
+                                                <input type="text" class="form-control" required minlength="5" placeholder="City">
                                             </div>
                                         </div>
 
                                          <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Telephone</label>
-                                                <input type="text" class="form-control" placeholder="+243......." name="phone">
+                                                <input type="text" class="form-control" required minlength="10" placeholder="+243......." name="phone">
                                             </div>
                                         </div>
                                     <div class="row">
