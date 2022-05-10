@@ -1,4 +1,7 @@
-
+:root{
+    --secondary-color:#182145;
+    --primary-color:#ff4749;
+}
 @keyframes spin {
     from {
         transform: rotate(0deg);
@@ -121,7 +124,7 @@ h1 .subtitle {
 }
 
 .text-info, .text-info:hover {
-    color: #1DC7EA !important;
+    color: var(--primary-color) !important;
 }
 
 .text-success, .text-success:hover {
@@ -148,11 +151,11 @@ body {
 }
 
 a {
-    color: #1DC7EA;
+    color: var(--primary-color);
 }
 
 a:hover, a:focus {
-    color: #42d0ed;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -316,7 +319,7 @@ input:focus {
 }
 
 .sidebar .nav li.active > a {
-    color: #F97300;
+    color: var(--secondary-color);
     opacity: 1;
     background: #FFFFFF;
 }
@@ -324,7 +327,7 @@ input:focus {
 .patient_state{
 margin: 15px 0;
 border: 2px double #0000;
-background-color: #F97300;
+background-color: var(--secondary-color);
 border-radius: 4px;
 color: white;
 max-width: 200px;
@@ -450,13 +453,13 @@ text-align: left;
 }
 
 .sidebar[data-color="azure"]:after {
-    background: #1DC7EA;
-    background: -moz-linear-gradient(top, #1DC7EA 0%, #4091ff 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1DC7EA), color-stop(100%, #4091ff));
-    background: -webkit-linear-gradient(top, #1DC7EA 0%, #4091ff 100%);
-    background: -o-linear-gradient(top, #1DC7EA 0%, #4091ff 100%);
-    background: -ms-linear-gradient(top, #1DC7EA 0%, #4091ff 100%);
-    background: linear-gradient(to bottom, #1DC7EA 0%, #4091ff 100%);
+    background: var(--primary-color);
+    background: -moz-linear-gradient(top, var(--primary-color) 0%, #4091ff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, var(--primary-color)), color-stop(100%, #4091ff));
+    background: -webkit-linear-gradient(top, var(--primary-color) 0%, #4091ff 100%);
+    background: -o-linear-gradient(top, var(--primary-color) 0%, #4091ff 100%);
+    background: -ms-linear-gradient(top, var(--primary-color) 0%, #4091ff 100%);
+    background: linear-gradient(to bottom, var(--primary-color) 0%, #4091ff 100%);
     background-size: 150% 150%;
 }
 
@@ -472,7 +475,7 @@ text-align: left;
 }
 
 .sidebar[data-color="orange"]:after {
-    background: #F97300;
+    background: var(--secondary-color);
     background: -moz-linear-gradient(top, #FFA534 0%, #ff5221 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFA534), color-stop(100%, #ff5221));
     background: -webkit-linear-gradient(top, #FFA534 0%, #ff5221 100%);
@@ -693,15 +696,15 @@ fieldset[disabled] .btn-success.active {
 }
 
 .btn-info {
-    border-color: #1DC7EA;
-    color: #1DC7EA;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active,
 .open > .btn-info.dropdown-toggle {
     background-color: transparent;
-    color: #42d0ed;
-    border-color: #42d0ed;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info:disabled, .btn-info:disabled:hover, .btn-info:disabled:focus, .btn-info:disabled.focus, .btn-info:disabled:active, .btn-info:disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled].focus, .btn-info[disabled]:active, .btn-info[disabled].active,
@@ -712,19 +715,19 @@ fieldset[disabled] .btn-info.focus,
 fieldset[disabled] .btn-info:active,
 fieldset[disabled] .btn-info.active {
     background-color: transparent;
-    border-color: #1DC7EA;
+    border-color: var(--primary-color);
 }
 
 .btn-info.btn-fill {
     color: #FFFFFF;
-    background-color: #1DC7EA;
+    background-color: var(--primary-color);
     opacity: 1;
     filter: alpha(opacity=100);
 }
 
 .btn-info.btn-fill:hover, .btn-info.btn-fill:focus, .btn-info.btn-fill:active, .btn-info.btn-fill.active,
 .open > .btn-info.btn-fill.dropdown-toggle {
-    background-color: #42d0ed;
+    background-color: var(--primary-color);
     color: #FFFFFF;
 }
 
@@ -733,7 +736,7 @@ fieldset[disabled] .btn-info.active {
 }
 
 .btn-info .caret {
-    border-top-color: #1DC7EA;
+    border-top-color: var(--primary-color);
 }
 
 .btn-warning {
@@ -1333,7 +1336,7 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .checkbox input[type="checkbox"]:checked + label::after {
-    color: #1DC7EA;
+    color: var(--primary-color);
 }
 
 .checkbox input[type="checkbox"]:checked + label::before {
@@ -1435,7 +1438,7 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .radio input[type="radio"]:checked + label::after {
-    color: #1DC7EA;
+    color: var(--primary-color);
 }
 
 .radio input[type="radio"]:disabled + label,
@@ -1852,22 +1855,22 @@ fieldset[disabled] .btn-neutral.active {
 .navbar-default .navbar-nav > li > a:not(.btn):focus {
     background-color: transparent;
     border-radius: 3px;
-    color: #1DC7EA;
+    color: var(--primary-color);
     opacity: 1;
     filter: alpha(opacity=100);
 }
 
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
-    border-bottom-color: #1DC7EA;
-    border-top-color: #1DC7EA;
+    border-bottom-color: var(--primary-color);
+    border-top-color: var(--primary-color);
 }
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
     background-color: transparent;
-    color: #1DC7EA;
+    color: var(--primary-color);
 }
 
 .navbar-default .navbar-nav .navbar-toggle:hover, .navbar-default .navbar-nav .navbar-toggle:focus {
@@ -1875,8 +1878,8 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .navbar-default:not(.navbar-transparent) .btn-default:hover {
-    color: #1DC7EA;
-    border-color: #1DC7EA;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .navbar-default:not(.navbar-transparent) .btn-neutral,
@@ -2611,11 +2614,11 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .ct-series-a .ct-point, .ct-series-a .ct-line, .ct-series-a .ct-bar, .ct-series-a .ct-slice-donut {
-    stroke: #1DC7EA;
+    stroke: var(--primary-color);
 }
 
 .ct-series-a .ct-slice-pie, .ct-series-a .ct-area {
-    fill: #1DC7EA;
+    fill: var(--primary-color);
 }
 
 .ct-series-b .ct-point, .ct-series-b .ct-line, .ct-series-b .ct-bar, .ct-series-b .ct-slice-donut {
