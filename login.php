@@ -47,11 +47,6 @@ if(isset($_SESSION['loggedin'])){
                 <h3>E-Health Monitor</h3>
                 <p>say byebye to sudden death</p>
              </div>
- 
-             <div class="success-msg">
-                <p>Great! You are one of our members now</p>
-                <a href="#" class="profile">Your Profile</a>
-             </div>
           </div>
  
  
@@ -83,9 +78,15 @@ if(isset($_SESSION['loggedin'])){
              <div class="signup form-peice">
                 <form class="signup-form" action="#" method="post">
                     <p class="k">Welcome!</p>
+                    
+                     <?php if(isset($_GET['response'])):?>
+                        <div class="alert alert-warning alert-dismissible" role="alert">
+                           <strong>Can't login!</strong> <?=$_GET['response']?>
+                        </div>
+                     <?php endif;?>
                     <p>The patient monitoring tool is an Internet of things based healthcare system. 
                     Our System Interconnect Electronic equipement and a web application to monitor your heartbeat & the oxygiene
-                    concentration in blood plus your temperature. <a target="_blank" href="https://drive.google.com/file/d/1aq_xBK0l-rvv-UCPlpve9knYOcTJeFtM/view?usp=sharing">More informations</a></p>
+                    concentration in blood plus your temperature. <a target="_blank" href="https://drive.google.com/file/d/1Dk49aXsfDv07lNoJFKYdP_WonEkIg3-p/view?usp=sharing">More informations</a></p>
                     <p style="color:#182145">For demo you may use : demo_doctor@e-health.app, demo_admin@e-health.app, demo_patient1@e-health.app. Password : 12345678</p>
                    <div class="CTA">
                       <a href="#" class="switch">Take me to login</a>
