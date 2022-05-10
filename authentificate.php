@@ -39,12 +39,12 @@
                             $_SESSION['type']=$row2[2];
                             $_SESSION['imgSrc']=$row2[3];
 
-						    header('location:dashboard.php');     
+						    header('location:dashboard');     
      					}
      			  }
             else
             {
-            header('location: index.php?response=incorrect password');
+            header('location: index?response=incorrect password');
             }
 
    				}
@@ -52,13 +52,13 @@
 	
 
 	else{
-	header('location:index.php?response=incorrect email');
+	header('location:index?response=incorrect email');
 	}
 }
 mysqli_close($conn);
 }
 else{
-	 header('location:index.php');
+	 header('location:index');
 }
 ?>
 

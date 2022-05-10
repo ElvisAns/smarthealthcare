@@ -5,7 +5,7 @@
 
     if($_POST['logout']=="65633hjbfe8374t3853847374bjsbyfg"){
         session_destroy();
-        header('location:index.php');
+        header('location:index');
     }
 }
     ?>

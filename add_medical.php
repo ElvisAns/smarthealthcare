@@ -2,13 +2,13 @@
 session_start();
 
 if(!isset($_SESSION['loggedin'])){
-    header('location:index.php');
+    header('location:index');
     exit();
 }
 
 if($_SESSION['type']!="admin")
 {
-    header('location:index.php');
+    header('location:index');
     exit();
 }
 ?>

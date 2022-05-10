@@ -41,12 +41,12 @@ $sql2 =  "INSERT  INTO `real time patient state` (noms,id) VALUES ('".$name."', 
                    
                    if ($conn->query($sql1)==TRUE & $conn->query($sql2)==TRUE ) 
                     {
-                        header('location:add_patient.php?return=OK');
+                        header('location:add_patient?return=OK');
                         exit();
                     } 
 
                     else{
-                       header('location:add_patient.php?return=ERROR');
+                       header('location:add_patient?return=ERROR');
                         exit();
                     }
                     mysqli_close($conn);

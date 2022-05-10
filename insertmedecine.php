@@ -30,12 +30,12 @@
 
                    if ($conn->query($sql1)==TRUE) 
                     {
-                        header('location:add_medical.php?return=OK');
+                        header('location:add_medical?return=OK');
                         exit();
                     } 
 
                     else{
-                       header('location:add_medical.php?return=ERROR');
+                       header('location:add_medical?return=ERROR');
                         exit();
                     }
                     mysqli_close($conn);
