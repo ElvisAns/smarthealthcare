@@ -56,3 +56,7 @@ The demo app is served proudly on
 https://clever-cloud.com
 
 You can access it on [live app link](https://ehealthmonitor.cleverapps.io/)
+
+
+UPDATE NOTE !!! THE LIVE LINK IS NO LONGER WORKING...
+WE ARE UNABLE TO PAY HOSTING RIGHT NOW!!!!
